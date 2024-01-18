@@ -1,0 +1,107 @@
+<html>
+    <style>
+        h1 {text-align: center;}
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-left:20%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 280px;
+  margin-left:20% /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sidenav {
+  height: 80%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #877878;
+  overflow-x: hidden;
+  padding-top: 0px;
+  margin-top:74px;
+}
+    </style>
+    <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body>
+        <h1>Task 1(b)</h1>
+        <div class="sidenav">
+            <h3 class="w3-bar-item">Menu</h3>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a><br>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a><br>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+          </div>
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+
+          <div class="row">
+            <div class="row">
+                <div class="column">
+                  <h2>Content 1</h2>
+                  <p>Some text..</p>
+                </div>
+                <div class="column">
+                  <h2>Content 2</h2>
+                  <p>Some text..</p>
+                </div>
+                <div class="column">
+                  <h2>Content 3</h2>
+                  <p>Some text..</p>
+                </div>
+                <div class="column">
+                  <h2>Content 4</h2>
+                  <p>Some text..</p>
+                </div>
+              </div>
+    </div>
+  </div>
+
+  <footer>
+    
+    <p align="center">This task is executed by Chirayu Palandurkar, Harsh Bante and Anuj Wadi.<br>
+    </p>
+  </footer>
+   </body>
+</html>
